@@ -17,7 +17,7 @@ class TweetsTest < ApplicationSystemTestCase
     fill_in "Tweet", with: @tweet.tweet
     click_on "Create Tweet"
 
-    assert_text "Tweet was successfully created"
+    assert_text "Tweet was123 successfully created"
     click_on "Back"
   end
 
